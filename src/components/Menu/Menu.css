@@ -1,0 +1,30 @@
+#main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar-toggle {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+
+  #main-nav ul {
+    display: none
+  }
+
+  #main-nav ul.active {
+    display: flex;
+    flex-direction: column;
+    display: none;
+  }
+
+
+  .navbar-toggle {
+    display: block;
+  }
+}

@@ -1,0 +1,33 @@
+.left-side {
+  display: flex;
+  gap: 60px;
+}
+
+.company-detail h5 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+img.company-logo {
+  max-width: 200px;
+  max-height: 50px;
+  display: block;
+  margin-bottom: 20px;
+
+}
+
+p.address {
+  line-height: 25px;
+}
+
+.contact-section .detail>* {
+  margin-bottom: 20px;
+}
+
+.contact-section h5 {
+  font-size: 20px;
+}
+
+.contact-section .detail svg {
+  margin-right: 10px;
+}

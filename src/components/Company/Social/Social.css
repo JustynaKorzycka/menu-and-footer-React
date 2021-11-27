@@ -1,0 +1,14 @@
+.soc-detail {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.social-icon {
+  font-size: 20px;
+  color: purple
+}
+
+.social-icon:hover {
+  color: orange;
+}
